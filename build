@@ -1,0 +1,4 @@
+echo g++ send.cpp -o send `pkg-config --cflags --libs opencv4`
+g++ send.cpp -o send `pkg-config --cflags --libs opencv4`
+echo g++ recv.cpp -o recv `pkg-config --cflags --libs opencv4`
+g++ recv.cpp -o recv `pkg-config --cflags --libs opencv4`
